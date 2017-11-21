@@ -33,9 +33,13 @@ public class Person implements Comparable<Person>{
 	}
 
 	@Override
-	public int compareTo(Person arg0) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int compareTo(Person p) {
+		if(this.lastName.compareTo(p.lastName) == 0){
+			return this.firstName.compareTo(p.firstName);
+		}
+		else{
+			return this.lastName.compareTo(p.lastName);
+		}
 	}
 	
 }
