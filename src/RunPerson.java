@@ -9,7 +9,13 @@ public class RunPerson {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		String Namn = sc.nextLine();
+		for(int i = 1; i < 11 ; i++){
+			
+			String person = sc.nextLine();
+			String Namn = sc.nextLine();
+			
+		}
+		
 		
 		ArrayList<Person> person = new ArrayList<Person>();
 		
